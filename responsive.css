@@ -1,0 +1,190 @@
+@media only screen and (max-width: 480px){
+    
+}
+
+*{
+    font-family: Roboto;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+}
+p{
+    color:#3b395080;
+    letter-spacing: 2px;
+}
+h1{
+    font-family: roboto;
+}
+h2{
+    font-weight: 800;
+}
+a{
+    color:#5a4fdc;
+    text-decoration: none;
+    font-family: lato;
+}
+.btn{
+    background-color: #5a4fdc;
+    color: white;
+    padding:15px 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.btn2{
+    background-color:#dedbf8;
+    color: #5a4fdc;;
+    padding:15px 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border: 1px solid white;
+    
+}
+.btn3{
+    color: #5a4fdc;;
+    padding:15px 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border: 1px solid #5a4fdc;
+    border-radius: 5%;
+    
+}
+
+.text_color{
+    color:#5a4fdc;
+}
+.lato_font{
+    font-family: Lato;
+}
+.roboto_font{
+    font-family: Roboto;
+}
+.navbar-brand{
+    font-family: Roboto;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+.nav-item{
+    padding: 0px 10px;
+}
+.header h1{
+    color:#3b3950;
+    text-shadow: 5px 5px #3b39502d;
+    font-size: 60px;
+}
+.header p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    color:#3b395080;
+    padding-bottom: 50px;
+}
+
+.header .row{
+    background-image: url("images/header_bg.png");
+}
+.header img{
+    width: 90%;
+}
+
+/* header end  */
+
+
+/* features start  */
+
+
+.features img{
+    width: 90%;
+}
+.features .content{
+    background-image: url("images/feature_bg.png");
+}
+
+/* features end */
+
+
+/* plan section start  */
+
+.plan .icon1 i{
+    border:1px solid #dedbf8;
+    padding: 25px;
+    border-radius: 20% 20% 0% 20%;
+    background-color:#dedbf8;
+}
+
+.plan .icon2 i{
+    border:1px solid #5a4fdc;
+    padding: 25px;
+    border-radius: 0% 20% 20% 20%;
+    background-color:#5a4fdc;
+    color: white;
+}
+
+.plan .ficon {
+    margin-bottom: 20px;
+    border-radius: 20% 20% 20% 20%;
+    height: 80px;
+    width: 86px;
+    background:linear-gradient(
+        to top,
+        #5a4fdc 0%,
+        #5a4fdc 50%,
+        #dedbf8a4 50%,
+        #dedbf8a4 100%
+    );
+}
+.plan .icon3 i{
+    border:1px solid #dedbf8;
+    padding: 25px;
+    border-radius: 20% 20% 20% 20%;
+    background:linear-gradient(
+        to top,
+        #f3f1ff 0%,
+        #f3f1ff 50%,
+        #5a4fdc 50%,
+        #5a4fdc 100%
+    );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+
+
+/* plan section end */
+
+/* news section start  */
+
+.news img{
+    width: 100%;
+    border-radius: 2%;
+}
+
+
+
+
+
+
+/* news section end */
+
+/* contact us start */
+textarea{
+    height: 150px;
+}
+/* contact us end */
+/* footer section start  */
+
+.footer{
+    /* height: 400px; */
+    background-color: #292838;
+}
+.footer .row{
+    padding-top: 70px;
+}
+
+.footer p{
+    color:#dedbf8;
+    font-weight: 400;
+}
+.footer i{
+    color:#dedbf8;
+    padding-right: 40px;
+    font-size: 30px;
+}
